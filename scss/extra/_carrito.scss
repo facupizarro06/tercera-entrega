@@ -1,0 +1,70 @@
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
+
+@media (max-width:768px) {
+    .imagen-carrito{
+        width: 7rem;
+        height: 7rem;
+    }
+    .finalizar-compra{
+        padding: 0rem;
+        width: 20rem;
+        margin-left: 3.5rem;
+    }
+    .table{
+        width: 100%;
+    }
+    .navbar{
+        width: 100vw;
+    }
+}
+
+main {
+    .carrito {
+        text-align: center;
+        font-size: xx-large;
+        text-transform: lowercase;
+    }
+
+    .finalizar-compra {
+        text-align: center;
+        @include estilos-botones (5px, 5px 100px);
+      
+    }
+
+    .table {
+        vertical-align: middle;
+        text-align: center;
+        font-size: larger;
+
+        tbody {
+            tr {
+                .imagen-carrito {
+                    width: 15rem;
+                    height: 15rem;
+                }
+            }
+        }
+    }
+}
+
+.table ::first-letter {
+    text-transform: uppercase;
+}
+
+.carrito:first-letter {
+    text-transform: uppercase;
+}
+
+
+.pie {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 0.5rem;
+
+}
+
+.fondo-color {
+    background-color: $color-principal;
+}

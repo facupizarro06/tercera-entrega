@@ -1,0 +1,274 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 50px;
+    margin: auto; }
+  .imagen-principal {
+    width: 100vw; }
+    .imagen-principal div .buscador {
+      visibility: hidden; }
+  .productos {
+    grid-template-columns: 1fr;
+    grid-template-areas: "imagen-uno" "imagen-dos" "imagen-tres" "imagen-cuatro"; }
+    .productos div .text-img-uno {
+      width: 100vw;
+      text-align: center;
+      background-color: gray;
+      margin-bottom: 0rem;
+      text-transform: uppercase; }
+    .productos div .imagen-uno {
+      padding: 1rem 8.4rem 1rem 8rem;
+      background-color: black;
+      width: 100vw; }
+    .productos div .text-img-dos {
+      text-align: center;
+      background-color: gray;
+      margin-bottom: 0rem;
+      text-transform: uppercase; }
+    .productos div .imagen-dos {
+      padding: 1rem 10rem 1rem 8rem;
+      background-color: black;
+      width: 100vw; }
+    .productos div .text-img-tres {
+      width: 100vw;
+      text-align: center;
+      background-color: gray;
+      margin-bottom: 0rem;
+      text-transform: uppercase; }
+    .productos div .imagen-tres {
+      padding: 1rem 8.4rem 1rem 8rem;
+      background-color: black;
+      width: 100vw; }
+    .productos div .text-img-cuatro {
+      width: 100vw;
+      text-align: center;
+      background-color: gray;
+      margin-bottom: 0rem;
+      text-transform: uppercase; }
+    .productos div .imagen-cuatro {
+      padding: 1rem 8.4rem 1rem 8rem;
+      background-color: black;
+      width: 100vw; }
+    .productos div .ver-mas {
+      width: 100vw; }
+  .navbar-nav {
+    font-size: medium;
+    text-align: right; }
+  .dropdown-menu {
+    height: auto; } }
+
+.logo {
+  width: 100px;
+  margin: auto; }
+
+.fondo-color {
+  background-color: #888888; }
+
+.menu-color {
+  text-decoration: underline;
+  color: #f7d8d8;
+  width: 100%; }
+  .menu-color ul {
+    background-color: black;
+    font-size: x-large;
+    height: auto; }
+  .menu-color .navbar-toggler {
+    background-color: #888888; }
+  .menu-color .dropdown-menu {
+    background-color: #888888;
+    overflow: auto;
+    height: auto; }
+
+.menu-color:hover {
+  color: red; }
+
+.imagen-principal {
+  width: 100%; }
+
+.buscador {
+  height: 10rem;
+  width: 50rem;
+  position: absolute;
+  top: 60rem;
+  right: 10rem; }
+  .buscador .caja-buscador {
+    padding: 5px 100px;
+    text-align: left; }
+  .buscador .boton-busqueda {
+    padding: 4px 20px; }
+
+.productos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  .productos img {
+    height: 10rem; }
+  .productos .ver-mas {
+    margin: 0;
+    padding: 0.1rem 3.2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; }
+  .productos .text-img-uno {
+    text-align: center; }
+  .productos .text-img-dos {
+    text-align: center; }
+  .productos .text-img-tres {
+    text-align: center; }
+  .productos .text-img-cuatro {
+    text-align: center; }
+
+@media (max-width: 768px) {
+  main .img-tienda {
+    width: 100vw; }
+  main .todos-los-productos {
+    position: relative;
+    bottom: 50rem;
+    right: 5rem;
+    font-size: medium; }
+    main .todos-los-productos p {
+      position: absolute;
+      top: -40rem;
+      left: 15rem; }
+  main .buscador-tienda {
+    visibility: hidden; }
+  .img-productos img {
+    margin: 50rem;
+    width: 20rem;
+    padding: 5rem; }
+  .navbar-toggler {
+    background-color: #888888; } }
+
+.img-tienda {
+  width: 100%; }
+
+.todos-los-productos {
+  position: absolute;
+  top: 30rem;
+  right: 32rem;
+  font-size: xx-large;
+  color: #f7d8d8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  text-decoration: underline; }
+
+.buscador-tienda {
+  position: absolute;
+  top: 35rem;
+  right: 36rem; }
+
+.menu-secundario {
+  height: auto;
+  background-color: black; }
+  .menu-secundario li {
+    font-size: larger; }
+    .menu-secundario li ul {
+      background-color: #888888;
+      border: 3px solid #f7d8d8; }
+
+.nav-item ::first-letter {
+  text-transform: uppercase; }
+
+.img-productos img {
+  height: 400px;
+  margin: 50px;
+  padding: 50px;
+  justify-content: space-around; }
+
+.preguntas {
+  background-color: #888888;
+  padding: 10px; }
+  .preguntas h2 {
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase; }
+  .preguntas .subtitulo {
+    text-transform: lowercase; }
+  .preguntas .texto-preguntas-frecuentes {
+    margin-bottom: 2rem;
+    color: white;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.subtitulo:first-letter {
+  text-transform: uppercase; }
+
+@media (max-width: 768px) {
+  main .datos {
+    top: 11rem;
+    margin-left: 1rem; }
+    main .datos .datos-contactanos {
+      font-size: 2rem;
+      text-decoration: underline; }
+    main .datos .datos-empresa {
+      font-size: 1rem; }
+  main .fondo-contact {
+    width: 100vw; } }
+
+main .fondo-contact {
+  width: 100%; }
+
+main .datos {
+  position: absolute;
+  top: 500px;
+  font-size: larger;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 2rem; }
+
+main .mb-3 .boton-formulario {
+  margin: 1rem 2rem 0rem 37rem;
+  padding: 0.1rem 6rem; }
+
+.mb-3 ::first-letter {
+  text-transform: uppercase; }
+
+@media (max-width: 768px) {
+  .imagen-carrito {
+    width: 7rem;
+    height: 7rem; }
+  .finalizar-compra {
+    padding: 0rem;
+    width: 20rem;
+    margin-left: 3.5rem; }
+  .table {
+    width: 100%; }
+  .navbar {
+    width: 100vw; } }
+
+main .carrito {
+  text-align: center;
+  font-size: xx-large;
+  text-transform: lowercase; }
+
+main .finalizar-compra {
+  text-align: center;
+  margin: 5px;
+  padding: 5px 100px; }
+
+main .table {
+  vertical-align: middle;
+  text-align: center;
+  font-size: larger; }
+  main .table tbody tr .imagen-carrito {
+    width: 15rem;
+    height: 15rem; }
+
+.table ::first-letter {
+  text-transform: uppercase; }
+
+.carrito:first-letter {
+  text-transform: uppercase; }
+
+.pie {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 0.5rem; }
+
+.fondo-color {
+  background-color: #888888; }

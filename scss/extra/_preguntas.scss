@@ -1,0 +1,27 @@
+@import "../utilidades/variables";
+.preguntas {
+    background-color: $color-principal;
+    padding: 10px;
+
+    h2 {
+        color: white;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+
+    .subtitulo {
+        text-transform: lowercase;
+    }
+
+    .texto-preguntas-frecuentes {
+        margin-bottom: 2rem;
+        color: white;
+        font-size: x-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+}
+
+.subtitulo:first-letter {
+    text-transform: uppercase;
+}

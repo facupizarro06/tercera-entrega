@@ -1,0 +1,49 @@
+@import "../utilidades/mixin";
+
+@media (max-width:768px){
+    main{
+    .datos{
+        top: 11rem;
+        margin-left: 1rem;
+        .datos-contactanos{
+            font-size: 2rem;
+            text-decoration: underline;
+        }
+        .datos-empresa{
+            font-size: 1rem;
+        }
+    }
+    .fondo-contact{
+        width: 100vw;
+    }
+    
+}
+  
+}
+
+main {
+    .fondo-contact {
+        width: 100%
+    }
+
+    .datos {
+        position: absolute;
+        top: 500px;
+        font-size: larger;
+        color: white;
+        text-transform: uppercase;
+        margin-left: 2rem;
+
+    }
+
+    .mb-3 {
+        .boton-formulario {
+            @include estilos-botones (1rem 2rem 0rem 37rem, 0.1rem 6rem);
+
+        }
+    }
+}
+
+.mb-3 ::first-letter {
+    text-transform: uppercase;
+}

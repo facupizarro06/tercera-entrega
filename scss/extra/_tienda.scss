@@ -1,0 +1,93 @@
+@import "../utilidades/variables";
+
+@media (max-width:768px) {
+    main {
+        .img-tienda {
+            width: 100vw;
+        }
+
+        .todos-los-productos {
+
+            position: relative;
+            bottom: 50rem;
+            right: 5rem;
+            font-size: medium;
+
+            p {
+                position: absolute;
+                top: -40rem;
+                left: 15rem;
+            }
+        }
+        .buscador-tienda{
+            visibility: hidden;
+        }
+    }
+
+    .img-productos img {
+        margin: 50rem;
+        width: 20rem;
+        padding: 5rem;
+
+    }
+
+    .navbar-toggler {
+        background-color: $color-principal;
+    }
+}
+
+.img-tienda {
+    width: 100%;
+}
+
+
+.todos-los-productos {
+    position: absolute;
+    top: 30rem;
+    right: 32rem;
+    font-size: xx-large;
+    color: $color-textomenu;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+
+}
+
+.buscador-tienda {
+    position: absolute;
+    top: 35rem;
+    right: 36rem;
+}
+
+
+.menu-secundario {
+    height: auto;
+    background-color: black;
+
+    li {
+        font-size: larger;
+
+        ul {
+            background-color: $color-principal;
+            border: 3px solid $color-textomenu;
+
+        }
+    }
+}
+
+
+.nav-item ::first-letter {
+    text-transform: uppercase;
+}
+
+
+.img-productos {
+
+    img {
+        height: 400px;
+        margin: 50px;
+        padding: 50px;
+        justify-content: space-around;
+    }
+}
